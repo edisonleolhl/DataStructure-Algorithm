@@ -1,9 +1,9 @@
 # DataStructure&Algorithm
 
-## Graph
+## [Graph](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph)
 
-### [Shortest Path](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/ShortestPath)
+### [Shortest Path](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph/ShortestPath)
 
-- [Dijkstra](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/ShortestPath/dijkstra.py)
+- [Dijkstra](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph/ShortestPath/dijkstra.py)
 
-- [Floyd](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/ShortestPath/floyd.py)
+- [Floyd](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph/ShortestPath/floyd.py)
