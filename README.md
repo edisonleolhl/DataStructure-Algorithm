@@ -2,8 +2,8 @@
 
 ## Graph
 
-### Shortest Path
+### [Shortest Path](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/ShortestPath)
 
-- Dijkstra
+- [Dijkstra](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/ShortestPath/dijkstra.py)
 
-- Floyd
+- [Floyd](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/ShortestPath/floyd.py)
