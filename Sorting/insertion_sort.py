@@ -3,13 +3,14 @@ def insertion_sort(L):
     if N <= 0 :
         print("Please input correct list.")
         return
-    for i in range(N):
-        temp = L[i]
-        for j in range(i-1,-1,-1):
-            L[j+1] = L[j]
-            if j == 0 or L[j-1] < temp < L[j+1]:
-                L[j] = temp
-                print(L)
+    for index in range(2):
+        for i in range(index,N,2):
+            temp = L[i]
+            for j in range(i-2,-1,-2):
+                L[j+2] = L[j]
+                if j == index or L[j-2] < temp < L[j+2]:
+                    L[j] = temp
+                    print(L)
     return L
 
 if __name__ == '__main__':

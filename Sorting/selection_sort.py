@@ -10,7 +10,7 @@ def select_sort(L):
                 indexOfMax = j
         L[N-1-i], L[indexOfMax] = L[indexOfMax], L[N-1-i]
         print(L)
-    return L
+    return L    
 
 if __name__ == '__main__':
     L = [9,8,7,6,5,4,3,2,1]
