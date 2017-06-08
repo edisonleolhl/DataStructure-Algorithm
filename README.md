@@ -15,3 +15,7 @@
 - [insertion_sort](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Sorting/insertion_sort.py)
 
 - [selection_sort](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Sorting/selection_sort.py)
+
+- [quick_sort](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Sorting/quick_sort.py)
+
+- [shell_sort](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Sorting/shell_sort.py)
