@@ -1,12 +1,10 @@
-def quick_sort(L):
-    return qsort(L,0,len(L)-1)
-    
-def qsort(L,low,high):
+def quick_sort(L,low,high):
     if(low < high):
         pivotloc = partition(L,low,high)
-        qsort(L,low,pivotloc-1)
-        qsort(L,pivotloc+1,high)
+        quick_sort(L,low,pivotloc-1)
+        quick_sort(L,pivotloc+1,high)
     return L
+
 
 def partition(L,low,high):
     if(low >= high):
@@ -24,5 +22,5 @@ def partition(L,low,high):
     return low
     
 if __name__ == '__main__':
-    L = [9,8,7,6,5,4,3,2,1]
-    print(quick_sort(L))
+    L = [1,8,7,6,5,4,3,2,1]
+    print(quick_sort(L, 0, len(L)-1))
