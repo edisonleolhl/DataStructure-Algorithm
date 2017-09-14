@@ -1,5 +1,11 @@
 # DataStructure&Algorithm
 
+## [Divide-and-conquer](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/Divede-and-conquer)
+
+- [Binary_search](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Divede-and-conquer/binary_search.py)
+
+- [Maximum_subarray](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Divede-and-conquer/maximum_subarray.py)
+
 ## [Graph](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph)
 
 ### [Max Flow](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph/MaxFlow)
