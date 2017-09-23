@@ -6,6 +6,8 @@
 
 - [Maximum_subarray](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Divede-and-conquer/maximum_subarray.py)
 
+- [Max2](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Divede-and-conquer/max2.py)
+
 ## [Graph](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph)
 
 ### [Max Flow](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph/MaxFlow)
