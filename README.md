@@ -8,6 +8,10 @@
 
 - [Max2](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Divede-and-conquer/max2.py)
 
+## [DynamicProgramming](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming)
+
+- [LCS](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/LCS.py)
+
 ## [Graph](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph)
 
 ### [Max Flow](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph/MaxFlow)
