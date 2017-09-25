@@ -10,7 +10,13 @@
 
 ## [DynamicProgramming](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming)
 
+- [EditDistance](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/EditDistance.py)
+
+- [IsInterleave](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/IsInterleave.py)
+
 - [LCS](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/LCS.py)
+
+- [MaxProductSubstring](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/MaxProductSubstring.py)
 
 ## [Graph](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph)
 
