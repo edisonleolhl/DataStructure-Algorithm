@@ -16,7 +16,17 @@
 
 - [LCS](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/LCS.py)
 
+- [LIS](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/LIS.py)
+
 - [MaxProductSubstring](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/MaxProductSubstring.py)
+
+- [MinimumPathSum](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/MinimumPathSum.py)
+
+- [Triangle](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/Triangle.py)
+
+- [UniquePaths](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/UniquePaths.py)
+
+- [UniquePathsII](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/DynamicProgramming/UniquePathsII.py)
 
 ## [Graph](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph)
 

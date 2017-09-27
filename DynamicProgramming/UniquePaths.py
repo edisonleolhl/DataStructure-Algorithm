@@ -1,4 +1,5 @@
 '''
+Leetcode:
 62. Unique Paths
 
 A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
@@ -25,8 +26,7 @@ class Solution(object):
                     c[i][j] = 1
                 else:
                     c[i][j] = c[i-1][j] + c[i][j-1]
-        print(c[m][n])
         return c[i][j]
 
 sol = Solution()
-sol.uniquePaths(1, 1)
+print(sol.uniquePaths(1, 1))
