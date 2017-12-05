@@ -42,6 +42,10 @@
 
 - [Floyd](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Graph/ShortestPath/floyd.py)
 
+## [Optimization](https://github.com/edisonleolhl/DataStructure-Algorithm/tree/master/Optimization)
+
+- [GeneticAlgorithm](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Optimization/light_24_improve.m)
+
 ## [Sorting](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Sorting)
 
 - [bubble_sort](https://github.com/edisonleolhl/DataStructure-Algorithm/blob/master/Sorting/bubble_sort.py)
