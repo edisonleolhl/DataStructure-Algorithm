@@ -104,11 +104,11 @@ function vec=mutate(vec,number)
     flag = rand;
     if flag<0.25 & vec(1,i)>1 & vec(2,i)>1
         vec = [vec(1:2,1:i-1),[vec(1,i)-1,vec(2,i)-1]',vec(1:2,i+1:length(vec))];
-    elseif flag<0.5 & vec(1,i)>1 & vec(2,i)<11
+    elseif flag<0.5 & vec(1,i)>1 & vec(2,i)<16.5
         vec = [vec(1:2,1:i-1),[vec(1,i)-1,vec(2,i)+1]',vec(1:2,i+1:length(vec))];
-    elseif flag<0.75 & vec(1,i)<16.5 & vec(2,i)>1
+    elseif flag<0.75 & vec(1,i)<11 & vec(2,i)>1
         vec = [vec(1:2,1:i-1),[vec(1,i)+1,vec(2,i)-1]',vec(1:2,i+1:length(vec))];
-    elseif vec(1,i)<16.5 & vec(2,i)<16.5
+    elseif vec(1,i)<11 & vec(2,i)<16.5
         vec = [vec(1:2,1:i-1),[vec(1,i)+1,vec(2,i)+1]',vec(1:2,i+1:length(vec))];
     else
     end
