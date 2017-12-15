@@ -9,17 +9,17 @@ def hasPath(Gf, s, t):
     for i in range(V):
         visited[i] = False
     h = [(0, s, list(range(V)))]
-    while len(h) > 0:
+    while h:
         (cost, v1, path) = heappop(h)
         if visited[v1] is False:
             visited[v1] = True
+            if v1 == t:
+                return True, path
             for i in range(V):
                 if not visited[i] and (Gf[v1][i][0] > 0):
                     path[i] = v1   # record precursor
                     heappush(h, (cost + Gf[v1][i][1], i, copy.deepcopy(path))) # 必须要深拷贝，不然heap里的各个path都会随之改变
-                    if i == t:
-                        return True, path
-    return visited[t] is True, path
+    return visited[t], path
 
 
 def max_flow(graph, s, t):

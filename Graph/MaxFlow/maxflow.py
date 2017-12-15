@@ -10,17 +10,17 @@ def hasPath(Gf, s, t, path):
         visited[i] = False
     visited[s] = True
     queue = deque([s])
-    while len(queue) > 0:
+    while queue:
         temp = queue.popleft()
+        if temp == t:
+            return True
         print("temp =", temp)
         for i in range(V):
             if not visited[i] and (Gf[temp][i] > 0):
                 queue.append(i)
                 visited[i] = True
                 path[i] = temp   # record precursor
-                if i == t:
-                    return True
-    return visited[t] is True
+    return visited[t]
 
 
 def max_flow(graph, s, t):
